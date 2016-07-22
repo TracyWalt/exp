@@ -15,8 +15,7 @@
     "gulp": "^3.9.1",
     "jade": "^1.11.0",
     "mongoose": "^4.5.5",
-    "nodemon": "^1.9.2",
-    "supervisor": "^0.11.0"
+    "nodemon": "^1.9.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
