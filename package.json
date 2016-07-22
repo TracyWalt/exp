@@ -4,7 +4,14 @@
   "description": "express test",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "connect-multiparty": "^2.0.0",
+    "ejs-mate": "2.3.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.5.5",
+    "nodemon": "^1.9.2"
   },
   "devDependencies": {
     "body-parser": "^1.15.2",

@@ -1,5 +1,14 @@
 # express 脚手架
 
+### 安装mongodb数据库
+```
+  1、https://www.mongodb.com/  官网下载并安装
+
+  2、如何配置、运行启动 ，可参考以下方法
+     http://www.cnblogs.com/lzrabbit/p/3682510.html
+     http://www.cnblogs.com/snake-hand/p/3172376.html
+
+```
 ### 安装依赖
 ```
   1、npm install (安装所需依赖包)
