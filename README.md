@@ -2,8 +2,8 @@
 
 ### 安装依赖
 ```
-  npm install
+  1、npm install (安装所需依赖包)
 
-  nodemon app.js (启动服务器，访问：http://localhost:3000/)
+  2、nodemon app.js (启动服务器，访问：http://localhost:3000/)
 
 ```
