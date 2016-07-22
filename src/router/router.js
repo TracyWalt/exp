@@ -22,13 +22,4 @@ router.get('/',indexController.index);
 //列表页
 router.get('/list',listController.list);
 
-// router.get('/',function(req,res){
-//     res.render('index', { title: 'index', message: '我是首页'});
-//     //res.send('我是首页');
-// });
-
-// router.get('/list',function(req,res){
-//     res.render('list/list', { title: 'list', message: '我是列表页'});
-// });
-
 module.exports = router;

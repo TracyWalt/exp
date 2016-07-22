@@ -21,28 +21,4 @@ exports.signin=function(req,res){
             res.render('login', { title: 'login', message: '登录',tip:'用户名或密码不正确'});
         }
     });
-
-    // if(username && password){
-    //     req.session.user = username;
-    //     var userdata = {"username":username,"password":password};
-    //     var user = new User(userdata);
-    //     console.log('=======user22==========');
-    //     User.find({username:'walt'},function(err,docs){
-    //         console.log(docs);
-    //         console.log('find success');
-    //     });
-    //     console.log('=========user22//========');
-    //     //保存数据
-    //     user.save(function(err) {
-    //         if (err) {
-    //             console.log('保存失败');
-    //         }else{
-    //             console.log('数据保存成功');
-    //             return res.redirect('/');
-    //         }
-    //     });
-    //     //res.redirect('/');
-    // }else{
-    //     res.render('login', { title: 'login', message: '登录',tip:'用户名密码不能为空'});
-    // }
 }

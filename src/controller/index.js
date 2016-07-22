@@ -9,6 +9,8 @@ exports.index=function(req,res){
     // console.log('======session=======');
     if(!req.session.user){
         res.redirect('/login');
+    }else{
+        res.render('index', { title: 'index', message: '我是首页22',tip:req.session.user||''});
     }
-    res.render('index', { title: 'index', message: '我是首页22',tip:req.session.user||''});
+
 };
