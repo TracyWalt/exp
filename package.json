@@ -1,0 +1,26 @@
+{
+  "name": "express",
+  "version": "1.0.1",
+  "description": "express test",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "connect-multiparty": "^2.0.0",
+    "ejs-mate": "2.3.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "gulp": "^3.9.1",
+    "jade": "^1.11.0",
+    "mongoose": "^4.5.5",
+    "nodemon": "^1.9.2",
+    "supervisor": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "walt",
+  "license": "ISC"
+}
